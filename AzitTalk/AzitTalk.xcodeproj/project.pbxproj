@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A82464FC28EAB506002133CC /* DeveloperInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82464FB28EAB506002133CC /* DeveloperInformationView.swift */; };
+		A82464FE28EABC9A002133CC /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82464FD28EABC9A002133CC /* SettingViewModel.swift */; };
+		A824650028EAC104002133CC /* NicknameChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82464FF28EAC104002133CC /* NicknameChangeView.swift */; };
+		A824651128F17650002133CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A824651028F17650002133CC /* GoogleService-Info.plist */; };
+		A824651328F1CF18002133CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A824651228F1CF18002133CC /* AppDelegate.swift */; };
+		A824652828F333BD002133CC /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A824652728F333BD002133CC /* TextEditorView.swift */; };
+		A8453C2D28DADC8C00DE8D97 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8453C2C28DADC8C00DE8D97 /* SplashViewModel.swift */; };
+		A8453C3528DAE92F00DE8D97 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8453C3428DAE92F00DE8D97 /* SignUpView.swift */; };
+		A8453C3728DAE96300DE8D97 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8453C3628DAE96300DE8D97 /* SignUpViewModel.swift */; };
+		A8453C3C28DAFE1F00DE8D97 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8453C3B28DAFE1F00DE8D97 /* LoginView.swift */; };
+		A8453C3E28DAFE5900DE8D97 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8453C3D28DAFE5900DE8D97 /* LoginViewModel.swift */; };
+		A8453C4028DB445F00DE8D97 /* PasswordSeekingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8453C3F28DB445F00DE8D97 /* PasswordSeekingView.swift */; };
+		A8453C4228DB47FE00DE8D97 /* PasswordSeekingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8453C4128DB47FE00DE8D97 /* PasswordSeekingViewModel.swift */; };
+		A8453C4428DB4B9900DE8D97 /* PolicyNoticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8453C4328DB4B9900DE8D97 /* PolicyNoticeView.swift */; };
+		A8453C4728DB53D300DE8D97 /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8453C4628DB53D300DE8D97 /* ChatListView.swift */; };
+		A8453C4B28DB610200DE8D97 /* ChatListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8453C4A28DB610200DE8D97 /* ChatListViewModel.swift */; };
+		A8453C5228DC2C4D00DE8D97 /* Caching.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8453C5128DC2C4D00DE8D97 /* Caching.swift */; };
+		A8453C5428DC2CD900DE8D97 /* ChatRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8453C5328DC2CD900DE8D97 /* ChatRoomView.swift */; };
+		A8453C5628DC2D5800DE8D97 /* ChatRoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8453C5528DC2D5800DE8D97 /* ChatRoomViewModel.swift */; };
+		A846CC9C28BA023C003F5AE8 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A846CC9B28BA023C003F5AE8 /* SplashView.swift */; };
+		A846CC9E28BA0311003F5AE8 /* EntranceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A846CC9D28BA0311003F5AE8 /* EntranceView.swift */; };
+		A853C3352817E50900EBE57A /* ChatListView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A853C3342817E50900EBE57A /* ChatListView1.swift */; };
+		A853C33728183F1300EBE57A /* ChatRoomView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A853C33628183F1300EBE57A /* ChatRoomView1.swift */; };
+		A87389A22816D7BA00BF4963 /* LoginView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87389A12816D7BA00BF4963 /* LoginView1.swift */; };
+		A8A526D02816505800B6F3A4 /* AzitTalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A526CF2816505800B6F3A4 /* AzitTalk.swift */; };
+		A8A526D22816505800B6F3A4 /* SignUpView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A526D12816505800B6F3A4 /* SignUpView1.swift */; };
+		A8A526D42816505A00B6F3A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8A526D32816505A00B6F3A4 /* Assets.xcassets */; };
+		A8A526D72816505A00B6F3A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8A526D62816505A00B6F3A4 /* Preview Assets.xcassets */; };
+		A8C5E5D9284B991F00313032 /* fword_list.txt in Resources */ = {isa = PBXBuildFile; fileRef = A8C5E5D8284B991F00313032 /* fword_list.txt */; };
+		A8D61BB1284F21F400524B4B /* PolicyNoticeView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D61BB0284F21F400524B4B /* PolicyNoticeView1.swift */; };
+		A8D61BB3284F9BAF00524B4B /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D61BB2284F9BAF00524B4B /* MailView.swift */; };
+		A8D7F2B628E2C9FF0093D8E3 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7F2B528E2C9FF0093D8E3 /* SettingView.swift */; };
+		A8DA484B28824AF1004145F0 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DA484A28824AF1004145F0 /* FirebaseManager.swift */; };
+		A8DA484E28824B13004145F0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DA484D28824B13004145F0 /* Extension.swift */; };
+		A8E8D1862820CC8600277AF3 /* RefreshableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8D1852820CC8600277AF3 /* RefreshableScrollView.swift */; };
+		A8FCB93E281D18D800D03A32 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FCB93D281D18D800D03A32 /* ChatMessage.swift */; };
+		A8FCB940281D190F00D03A32 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FCB93F281D190F00D03A32 /* MessageView.swift */; };
+		B3E3D6FAA2A650686687E05C /* Pods_AzitTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7953F959CF48FC7D714DE6BE /* Pods_AzitTalk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A824652328F2FC3C002133CC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5482027EDE617BB0FEB12747 /* Pods-AzitTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzitTalk.debug.xcconfig"; path = "Target Support Files/Pods-AzitTalk/Pods-AzitTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		7953F959CF48FC7D714DE6BE /* Pods_AzitTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzitTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82464FB28EAB506002133CC /* DeveloperInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperInformationView.swift; sourceTree = "<group>"; };
+		A82464FD28EABC9A002133CC /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
+		A82464FF28EAC104002133CC /* NicknameChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameChangeView.swift; sourceTree = "<group>"; };
+		A824651028F17650002133CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A824651228F1CF18002133CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A824652728F333BD002133CC /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
+		A8453C2C28DADC8C00DE8D97 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		A8453C3428DAE92F00DE8D97 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		A8453C3628DAE96300DE8D97 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		A8453C3B28DAFE1F00DE8D97 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A8453C3D28DAFE5900DE8D97 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A8453C3F28DB445F00DE8D97 /* PasswordSeekingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSeekingView.swift; sourceTree = "<group>"; };
+		A8453C4128DB47FE00DE8D97 /* PasswordSeekingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSeekingViewModel.swift; sourceTree = "<group>"; };
+		A8453C4328DB4B9900DE8D97 /* PolicyNoticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyNoticeView.swift; sourceTree = "<group>"; };
+		A8453C4628DB53D300DE8D97 /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
+		A8453C4A28DB610200DE8D97 /* ChatListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewModel.swift; sourceTree = "<group>"; };
+		A8453C5128DC2C4D00DE8D97 /* Caching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caching.swift; sourceTree = "<group>"; };
+		A8453C5328DC2CD900DE8D97 /* ChatRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomView.swift; sourceTree = "<group>"; };
+		A8453C5528DC2D5800DE8D97 /* ChatRoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewModel.swift; sourceTree = "<group>"; };
+		A846CC9B28BA023C003F5AE8 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		A846CC9D28BA0311003F5AE8 /* EntranceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntranceView.swift; sourceTree = "<group>"; };
+		A853C3342817E50900EBE57A /* ChatListView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListView1.swift; sourceTree = "<group>"; };
+		A853C33628183F1300EBE57A /* ChatRoomView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomView1.swift; sourceTree = "<group>"; };
+		A87389A12816D7BA00BF4963 /* LoginView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView1.swift; sourceTree = "<group>"; };
+		A8A526CC2816505800B6F3A4 /* AzitTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzitTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A526CF2816505800B6F3A4 /* AzitTalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzitTalk.swift; sourceTree = "<group>"; };
+		A8A526D12816505800B6F3A4 /* SignUpView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView1.swift; sourceTree = "<group>"; };
+		A8A526D32816505A00B6F3A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8A526D62816505A00B6F3A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8C5E5D8284B991F00313032 /* fword_list.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fword_list.txt; sourceTree = "<group>"; };
+		A8D61BB0284F21F400524B4B /* PolicyNoticeView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyNoticeView1.swift; sourceTree = "<group>"; };
+		A8D61BB2284F9BAF00524B4B /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		A8D7F2B528E2C9FF0093D8E3 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		A8DA484A28824AF1004145F0 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		A8DA484D28824B13004145F0 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		A8DF05F3283EFBB80052D64D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A8DF05F528409B410052D64D /* AzitTalk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AzitTalk.entitlements; sourceTree = "<group>"; };
+		A8E8D1852820CC8600277AF3 /* RefreshableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableScrollView.swift; sourceTree = "<group>"; };
+		A8FCB93D281D18D800D03A32 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		A8FCB93F281D190F00D03A32 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		E046981350116208460BBA89 /* Pods-AzitTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzitTalk.release.xcconfig"; path = "Target Support Files/Pods-AzitTalk/Pods-AzitTalk.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8A526C92816505800B6F3A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E3D6FAA2A650686687E05C /* Pods_AzitTalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32845A8D196444D2F6AA3294 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7953F959CF48FC7D714DE6BE /* Pods_AzitTalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8453C2B28DADC8000DE8D97 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				A846CC9B28BA023C003F5AE8 /* SplashView.swift */,
+				A8453C2C28DADC8C00DE8D97 /* SplashViewModel.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		A8453C3028DAE5ED00DE8D97 /* Entrance */ = {
+			isa = PBXGroup;
+			children = (
+				A846CC9D28BA0311003F5AE8 /* EntranceView.swift */,
+			);
+			path = Entrance;
+			sourceTree = "<group>";
+		};
+		A8453C3328DAE62F00DE8D97 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				A8453C3428DAE92F00DE8D97 /* SignUpView.swift */,
+				A8453C3628DAE96300DE8D97 /* SignUpViewModel.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		A8453C3A28DAFE0600DE8D97 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A8453C3B28DAFE1F00DE8D97 /* LoginView.swift */,
+				A8453C3D28DAFE5900DE8D97 /* LoginViewModel.swift */,
+				A8453C3F28DB445F00DE8D97 /* PasswordSeekingView.swift */,
+				A8453C4128DB47FE00DE8D97 /* PasswordSeekingViewModel.swift */,
+				A8453C4328DB4B9900DE8D97 /* PolicyNoticeView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A8453C4528DB53A900DE8D97 /* ChatList */ = {
+			isa = PBXGroup;
+			children = (
+				A8453C4628DB53D300DE8D97 /* ChatListView.swift */,
+				A8453C4A28DB610200DE8D97 /* ChatListViewModel.swift */,
+			);
+			path = ChatList;
+			sourceTree = "<group>";
+		};
+		A8453C5028DC2C0C00DE8D97 /* ChatRoom */ = {
+			isa = PBXGroup;
+			children = (
+				A8453C5328DC2CD900DE8D97 /* ChatRoomView.swift */,
+				A8453C5528DC2D5800DE8D97 /* ChatRoomViewModel.swift */,
+				A8FCB93F281D190F00D03A32 /* MessageView.swift */,
+				A8D61BB2284F9BAF00524B4B /* MailView.swift */,
+				A8E8D1852820CC8600277AF3 /* RefreshableScrollView.swift */,
+				A824652728F333BD002133CC /* TextEditorView.swift */,
+			);
+			path = ChatRoom;
+			sourceTree = "<group>";
+		};
+		A846CC9A28B9FD79003F5AE8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A85780B628FBE40000A541CA /* Legacy */,
+				A8453C2B28DADC8000DE8D97 /* Splash */,
+				A8453C3028DAE5ED00DE8D97 /* Entrance */,
+				A8453C3328DAE62F00DE8D97 /* SignUp */,
+				A8453C3A28DAFE0600DE8D97 /* Login */,
+				A8453C4528DB53A900DE8D97 /* ChatList */,
+				A8453C5028DC2C0C00DE8D97 /* ChatRoom */,
+				A8D7F2B428E2C9DD0093D8E3 /* Setting */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A85780B628FBE40000A541CA /* Legacy */ = {
+			isa = PBXGroup;
+			children = (
+				A87389A12816D7BA00BF4963 /* LoginView1.swift */,
+				A8D61BB0284F21F400524B4B /* PolicyNoticeView1.swift */,
+				A853C3342817E50900EBE57A /* ChatListView1.swift */,
+				A853C33628183F1300EBE57A /* ChatRoomView1.swift */,
+				A8A526D12816505800B6F3A4 /* SignUpView1.swift */,
+			);
+			path = Legacy;
+			sourceTree = "<group>";
+		};
+		A8A526C32816505800B6F3A4 = {
+			isa = PBXGroup;
+			children = (
+				A8A526CE2816505800B6F3A4 /* AzitTalk */,
+				A8A526CD2816505800B6F3A4 /* Products */,
+				B2FB21615BA180B8F95F3BE9 /* Pods */,
+				32845A8D196444D2F6AA3294 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8A526CD2816505800B6F3A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8A526CC2816505800B6F3A4 /* AzitTalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8A526CE2816505800B6F3A4 /* AzitTalk */ = {
+			isa = PBXGroup;
+			children = (
+				A8DA484C28824AF9004145F0 /* Application */,
+				A846CC9A28B9FD79003F5AE8 /* View */,
+				A8C5E5D8284B991F00313032 /* fword_list.txt */,
+				A8DF05F528409B410052D64D /* AzitTalk.entitlements */,
+				A824651028F17650002133CC /* GoogleService-Info.plist */,
+				A8DF05F3283EFBB80052D64D /* Info.plist */,
+				A8A526D32816505A00B6F3A4 /* Assets.xcassets */,
+				A8A526D52816505A00B6F3A4 /* Preview Content */,
+			);
+			path = AzitTalk;
+			sourceTree = "<group>";
+		};
+		A8A526D52816505A00B6F3A4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A8A526D62816505A00B6F3A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8D7F2B428E2C9DD0093D8E3 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				A8D7F2B528E2C9FF0093D8E3 /* SettingView.swift */,
+				A82464FB28EAB506002133CC /* DeveloperInformationView.swift */,
+				A82464FF28EAC104002133CC /* NicknameChangeView.swift */,
+				A82464FD28EABC9A002133CC /* SettingViewModel.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		A8DA484C28824AF9004145F0 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A8A526CF2816505800B6F3A4 /* AzitTalk.swift */,
+				A824651228F1CF18002133CC /* AppDelegate.swift */,
+				A8DA484A28824AF1004145F0 /* FirebaseManager.swift */,
+				A8DA484D28824B13004145F0 /* Extension.swift */,
+				A8453C5128DC2C4D00DE8D97 /* Caching.swift */,
+				A8FCB93D281D18D800D03A32 /* ChatMessage.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B2FB21615BA180B8F95F3BE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5482027EDE617BB0FEB12747 /* Pods-AzitTalk.debug.xcconfig */,
+				E046981350116208460BBA89 /* Pods-AzitTalk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8A526CB2816505800B6F3A4 /* AzitTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8A526DA2816505A00B6F3A4 /* Build configuration list for PBXNativeTarget "AzitTalk" */;
+			buildPhases = (
+				B6811C659254C888258C446B /* [CP] Check Pods Manifest.lock */,
+				A8A526C82816505800B6F3A4 /* Sources */,
+				A8A526C92816505800B6F3A4 /* Frameworks */,
+				A8A526CA2816505800B6F3A4 /* Resources */,
+				78A6C2B041ED1B49F2E1925C /* [CP] Embed Pods Frameworks */,
+				A824652328F2FC3C002133CC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AzitTalk;
+			productName = NC1;
+			productReference = A8A526CC2816505800B6F3A4 /* AzitTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8A526C42816505800B6F3A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					A8A526CB2816505800B6F3A4 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = A8A526C72816505800B6F3A4 /* Build configuration list for PBXProject "AzitTalk" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8A526C32816505800B6F3A4;
+			productRefGroup = A8A526CD2816505800B6F3A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8A526CB2816505800B6F3A4 /* AzitTalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8A526CA2816505800B6F3A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A526D72816505A00B6F3A4 /* Preview Assets.xcassets in Resources */,
+				A824651128F17650002133CC /* GoogleService-Info.plist in Resources */,
+				A8C5E5D9284B991F00313032 /* fword_list.txt in Resources */,
+				A8A526D42816505A00B6F3A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78A6C2B041ED1B49F2E1925C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AzitTalk/Pods-AzitTalk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AzitTalk/Pods-AzitTalk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AzitTalk/Pods-AzitTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6811C659254C888258C446B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AzitTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8A526C82816505800B6F3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8453C2D28DADC8C00DE8D97 /* SplashViewModel.swift in Sources */,
+				A8453C5628DC2D5800DE8D97 /* ChatRoomViewModel.swift in Sources */,
+				A8453C3728DAE96300DE8D97 /* SignUpViewModel.swift in Sources */,
+				A8453C4428DB4B9900DE8D97 /* PolicyNoticeView.swift in Sources */,
+				A87389A22816D7BA00BF4963 /* LoginView1.swift in Sources */,
+				A8A526D22816505800B6F3A4 /* SignUpView1.swift in Sources */,
+				A846CC9E28BA0311003F5AE8 /* EntranceView.swift in Sources */,
+				A8A526D02816505800B6F3A4 /* AzitTalk.swift in Sources */,
+				A824651328F1CF18002133CC /* AppDelegate.swift in Sources */,
+				A8DA484E28824B13004145F0 /* Extension.swift in Sources */,
+				A8E8D1862820CC8600277AF3 /* RefreshableScrollView.swift in Sources */,
+				A8DA484B28824AF1004145F0 /* FirebaseManager.swift in Sources */,
+				A8D61BB1284F21F400524B4B /* PolicyNoticeView1.swift in Sources */,
+				A8FCB93E281D18D800D03A32 /* ChatMessage.swift in Sources */,
+				A846CC9C28BA023C003F5AE8 /* SplashView.swift in Sources */,
+				A8453C5228DC2C4D00DE8D97 /* Caching.swift in Sources */,
+				A8453C4028DB445F00DE8D97 /* PasswordSeekingView.swift in Sources */,
+				A82464FC28EAB506002133CC /* DeveloperInformationView.swift in Sources */,
+				A8453C3C28DAFE1F00DE8D97 /* LoginView.swift in Sources */,
+				A8D7F2B628E2C9FF0093D8E3 /* SettingView.swift in Sources */,
+				A8453C4228DB47FE00DE8D97 /* PasswordSeekingViewModel.swift in Sources */,
+				A8453C4728DB53D300DE8D97 /* ChatListView.swift in Sources */,
+				A853C33728183F1300EBE57A /* ChatRoomView1.swift in Sources */,
+				A8453C4B28DB610200DE8D97 /* ChatListViewModel.swift in Sources */,
+				A8453C3528DAE92F00DE8D97 /* SignUpView.swift in Sources */,
+				A8FCB940281D190F00D03A32 /* MessageView.swift in Sources */,
+				A824650028EAC104002133CC /* NicknameChangeView.swift in Sources */,
+				A82464FE28EABC9A002133CC /* SettingViewModel.swift in Sources */,
+				A853C3352817E50900EBE57A /* ChatListView1.swift in Sources */,
+				A8453C5428DC2CD900DE8D97 /* ChatRoomView.swift in Sources */,
+				A824652828F333BD002133CC /* TextEditorView.swift in Sources */,
+				A8453C3E28DAFE5900DE8D97 /* LoginViewModel.swift in Sources */,
+				A8D61BB3284F9BAF00524B4B /* MailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A8A526D82816505A00B6F3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8A526D92816505A00B6F3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8A526DB2816505A00B6F3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5482027EDE617BB0FEB12747 /* Pods-AzitTalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AzitTalk/AzitTalk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AzitTalk/Preview Content\"";
+				DEVELOPMENT_TEAM = 78F54XW75V;
+				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AzitTalk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.AzitTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A8A526DC2816505A00B6F3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E046981350116208460BBA89 /* Pods-AzitTalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AzitTalk/AzitTalk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AzitTalk/Preview Content\"";
+				DEVELOPMENT_TEAM = 78F54XW75V;
+				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AzitTalk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.AzitTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8A526C72816505800B6F3A4 /* Build configuration list for PBXProject "AzitTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8A526D82816505A00B6F3A4 /* Debug */,
+				A8A526D92816505A00B6F3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8A526DA2816505A00B6F3A4 /* Build configuration list for PBXNativeTarget "AzitTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8A526DB2816505A00B6F3A4 /* Debug */,
+				A8A526DC2816505A00B6F3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8A526C42816505800B6F3A4 /* Project object */;
+}
