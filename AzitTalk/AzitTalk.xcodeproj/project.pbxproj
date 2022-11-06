@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A820587C29178C6600A443C7 /* DeleteUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A820587B29178C6600A443C7 /* DeleteUserView.swift */; };
+		A820587E29178E3200A443C7 /* DeleteUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A820587D29178E3200A443C7 /* DeleteUserViewModel.swift */; };
 		A82464FC28EAB506002133CC /* DeveloperInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82464FB28EAB506002133CC /* DeveloperInformationView.swift */; };
 		A82464FE28EABC9A002133CC /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82464FD28EABC9A002133CC /* SettingViewModel.swift */; };
 		A824650028EAC104002133CC /* NicknameChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82464FF28EAC104002133CC /* NicknameChangeView.swift */; };
@@ -63,6 +65,8 @@
 /* Begin PBXFileReference section */
 		5482027EDE617BB0FEB12747 /* Pods-AzitTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzitTalk.debug.xcconfig"; path = "Target Support Files/Pods-AzitTalk/Pods-AzitTalk.debug.xcconfig"; sourceTree = "<group>"; };
 		7953F959CF48FC7D714DE6BE /* Pods_AzitTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzitTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A820587B29178C6600A443C7 /* DeleteUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteUserView.swift; sourceTree = "<group>"; };
+		A820587D29178E3200A443C7 /* DeleteUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteUserViewModel.swift; sourceTree = "<group>"; };
 		A82464FB28EAB506002133CC /* DeveloperInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperInformationView.swift; sourceTree = "<group>"; };
 		A82464FD28EABC9A002133CC /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
 		A82464FF28EAC104002133CC /* NicknameChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameChangeView.swift; sourceTree = "<group>"; };
@@ -261,6 +265,8 @@
 				A82464FB28EAB506002133CC /* DeveloperInformationView.swift */,
 				A82464FF28EAC104002133CC /* NicknameChangeView.swift */,
 				A82464FD28EABC9A002133CC /* SettingViewModel.swift */,
+				A820587B29178C6600A443C7 /* DeleteUserView.swift */,
+				A820587D29178E3200A443C7 /* DeleteUserViewModel.swift */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -404,6 +410,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A820587C29178C6600A443C7 /* DeleteUserView.swift in Sources */,
 				A8453C2D28DADC8C00DE8D97 /* SplashViewModel.swift in Sources */,
 				A8453C5628DC2D5800DE8D97 /* ChatRoomViewModel.swift in Sources */,
 				A8453C3728DAE96300DE8D97 /* SignUpViewModel.swift in Sources */,
@@ -422,6 +429,7 @@
 				A8453C5228DC2C4D00DE8D97 /* Caching.swift in Sources */,
 				A8453C4028DB445F00DE8D97 /* PasswordSeekingView.swift in Sources */,
 				A82464FC28EAB506002133CC /* DeveloperInformationView.swift in Sources */,
+				A820587E29178E3200A443C7 /* DeleteUserViewModel.swift in Sources */,
 				A8453C3C28DAFE1F00DE8D97 /* LoginView.swift in Sources */,
 				A8D7F2B628E2C9FF0093D8E3 /* SettingView.swift in Sources */,
 				A8453C4228DB47FE00DE8D97 /* PasswordSeekingViewModel.swift in Sources */,

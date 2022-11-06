@@ -24,4 +24,9 @@ final class FirebaseManager: NSObject {
     func fcmToken() -> String? {
         return Messaging.messaging().fcmToken
     }
+    
+    func credential(withEmail email: String, password: String) -> AuthCredential {
+        let baseURL = "@pos.idserve.net"
+        return EmailAuthProvider.credential(withEmail: email + baseURL, password: password)
+    }
 }

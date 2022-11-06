@@ -10,6 +10,8 @@ import SwiftUI
 final class SettingViewModel: ObservableObject {
     @Binding var isLogin: Bool
     @Published var nickName: String = ""
+    @Published var isLogoutButtonTouched: Bool = false
+    @Published var isDeleteUserButtonTouched: Bool = false
     var email: String = ""
     
     init(isLogin: Binding<Bool>) {
@@ -20,12 +22,11 @@ final class SettingViewModel: ObservableObject {
     }
     
     func signOut() {
-        self.isLogin = false
-        
         guard let currentUser = FirebaseManager.shared.auth.currentUser else { return }
         try? FirebaseManager.shared.auth.signOut()
         FirebaseManager.shared.firestore.collection("users")
             .document(currentUser.uid).updateData(["fcmToken" : "logOut"])
+        self.isLogin = false
     }
     
     func updateNickname() {

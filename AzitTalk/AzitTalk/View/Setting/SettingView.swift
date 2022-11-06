@@ -48,11 +48,22 @@ struct SettingView: View {
                 Spacer()
                 
                 Button(role: .destructive) {
-                    self.viewModel.signOut()
+                    self.viewModel.isLogoutButtonTouched = true
                 } label: {
                     Text("로그아웃")
                 }
+                .padding()
+                Button(role: .destructive) {
+                    self.viewModel.isDeleteUserButtonTouched = true
+                } label: {
+                    Text("탈퇴하기")
+                }
+                .padding()
             }
+            NavigationLink("DeleteUserView", isActive: self.$viewModel.isDeleteUserButtonTouched) {
+                DeleteUserView(isLogin: self.$viewModel.isLogin)
+            }
+            .hidden()
         }
         .navigationTitle("설정")
         .navigationBarTitleDisplayMode(.inline)
@@ -61,6 +72,20 @@ struct SettingView: View {
                 self.viewModel.updateNickname()
             }
         }
+        .alert("로그아웃", isPresented: self.$viewModel.isLogoutButtonTouched, actions: {
+            Button {
+                Void()
+            } label: {
+                Text("취소")
+            }
+            Button {
+                self.viewModel.signOut()
+            } label: {
+                Text("로그아웃")
+            }
+        }, message: {
+            Text("다시 앱에 접속 후 로그인할 수 있습니다.")
+        })
     }
 }
 
