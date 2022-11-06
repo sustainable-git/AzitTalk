@@ -25,7 +25,7 @@ extension Date {
             Date.dateFormatter.dateFormat = "H:mm"
             return Date.dateFormatter.string(from: self)
         } else {
-            Date.dateFormatter.dateFormat = "yyyy. M. dd"
+            Date.dateFormatter.dateFormat = "yyyy. M. dd."
             return Date.dateFormatter.string(from: self)
         }
     }
