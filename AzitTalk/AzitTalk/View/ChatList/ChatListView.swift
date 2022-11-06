@@ -84,7 +84,7 @@ fileprivate struct ChatRoomOverviewView: View {
                     .frame(width: 10, height: 10)
                     .foregroundColor(.init(uiColor: .systemPink))
                     .padding(.horizontal, 7.5)
-                Text(displaySender)
+                Text("Cohort 2022")
                     .foregroundColor(.init(uiColor: .label))
                     .fontWeight(.semibold)
                 Spacer()
@@ -93,7 +93,7 @@ fileprivate struct ChatRoomOverviewView: View {
                     .padding(.trailing)
             }
             HStack(alignment: .top) {
-                Text(displayMessage)
+                Text(displaySender + " : " + displayMessage)
                     .font(.body)
                     .foregroundColor(.gray)
                     .padding(.horizontal, 25)
